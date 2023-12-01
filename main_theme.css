@@ -1,0 +1,8 @@
+@font-face {
+  font-family: AtkinsonMonolegible;
+  src: url(AtkinsonMonolegible.ttf);
+}
+
+div {
+  font-family: AtkinsonMonolegible;
+}
