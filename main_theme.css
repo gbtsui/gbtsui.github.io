@@ -10,6 +10,7 @@ div {
 .top_area{
   background_color: black;
   font_color: white;
-  h1 {text-align: center;}
-  h2 {text-align: right;}
 }
+.top_area h1 {text-align: center;}
+.top_area h2 {text-align: right;}
+
