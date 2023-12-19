@@ -1,16 +1,64 @@
 @font-face {
   font-family: AtkinsonMonolegible;
-  src: url(AtkinsonMonolegible.ttf);
+  src: url(res/fonts/AtkinsonMonolegible.ttf);
 }
 
 div {
   font-family: AtkinsonMonolegible;
 }
 
-.top_area{
-  background_color: black;
-  font_color: white;
+.top_area {
+  background-color: darkblue;
+  color: white;
 }
-.top_area h1 {text-align: center;}
-.top_area h2 {text-align: right;}
 
+.top_area h1 {
+  text-align: center;
+  padding-top: 75px;
+  padding-bottom: 100px;
+}
+
+.top_area h2 {
+  color: #D0D0D0;
+  text-align: right;
+  padding: 20px;
+  transform: rotate(3deg);
+}
+
+
+
+.head_navbar {
+  position: sticky;
+  position: -webkit-sticky;
+  background-color: black;
+  overflow: hidden;
+}
+
+.head_navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.head_navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4039a0;
+  color: white;
+}
+
+.cookies_disclaimer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
