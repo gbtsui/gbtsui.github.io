@@ -48,11 +48,17 @@
       </footer>
     </div>
     
-    <div class = "cookies_disclaimer" hidden = true>
-      <script src = "src/js/cookies.js"></script>
-      <p>Would you like a cookie in this trying time?</p>
-      <span id = "close_cookies"> Sure? </span>
+    <div id="cookie_disclaimer" class="popup">
+      <div class="popup-content">
+        <span class="close">&times; </span>
+        <p id="cookie_message">Would you like a cookie and some tracking devices?</p>
+        <span class="accept">Mmm yes coonkie</span>
+        <span class="deny">I'm good, thanks</span>
+        <script src = "src/js/cookies.js"></script>
+      </div>
     </div>
+
+    
     
   </body>
 </html>
