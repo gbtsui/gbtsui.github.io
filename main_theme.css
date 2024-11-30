@@ -62,6 +62,14 @@ div {
   background-color: lightslategray;
   color:white;
 }
+#socials{
+  background-color: #4039a0;
+  color:white;
+  width:40%;
+}
+#socials a{
+  color:lightslategray;
+}
 .head_navbar {
   position: sticky;
   position: -webkit-sticky;
