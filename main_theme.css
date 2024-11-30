@@ -29,11 +29,14 @@ div {
 }
 
 .fullwidth_text_block{
+  min-width:100%;
   width:100%;
 }
 
 .about_blocks {
   width:100%;
+  clear:both;
+  display:flex;
 }
 
 .about {
@@ -45,6 +48,7 @@ div {
   padding-top: 50px;
   padding-bottom: 50px;
   overflow: auto;
+  flex:1;
 }
 #skills {
   background-color: darkslategray;
@@ -54,7 +58,10 @@ div {
   background-color: slategray;
   color: white;
 }
-
+#hobbies{
+  background-color: lightslategray;
+  color:white;
+}
 .head_navbar {
   position: sticky;
   position: -webkit-sticky;
