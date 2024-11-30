@@ -9,7 +9,7 @@ div {
 }
 
 .top_area {
-  background-color: darkblue;
+  background-color: #4039a0;
   color: white;
 }
 
@@ -28,7 +28,32 @@ div {
   transform: rotate(2deg);
 }
 
+.fullwidth_text_block{
+  width:100%;
+}
 
+.about_blocks {
+  width:100%;
+}
+
+.about {
+  color: black;
+  width:23%;
+  float:left;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  overflow: auto;
+}
+#skills {
+  background-color: darkslategray;
+  color: white;
+}
+#certifications{
+  background-color: slategray;
+  color: white;
+}
 
 .head_navbar {
   position: sticky;
