@@ -17,14 +17,14 @@
               <a href = "/src/about.html">about me</a>
               <a href = "/src/portfolio.html">portfolio</a>
             </header>
-          </div>
+        </div>
           
-          <div class = "top_area">
+        <div class = "top_area">
             <h1>About this website</h1>
             <h2>Development process, tools used, mistakes made, lessons learned.</h2>
-          </div>
+        </div>
 
-          <div class = "content">
+        <div class = "content">
             <div class="fullwidth_text_block">
                 <div class = "summary">
                     <p>Hi! This is the website that I made, again.
@@ -71,11 +71,53 @@
                     and main CSS file <code>main_theme.css</code>. In <code>/res/</code>, there's a <code>
                     fonts</code> directory containing the two* TTF font files for the Atkinson fonts used 
                     in this website, and a <code>images</code> directory containing all of the pictures.<br>
-                    In <code>/src/</code>, 
+                    In <code>/src/</code>, there's a <code>js/</code> folder containing all of the fun little
+                    scripts used. At the time of writing, it only contains <code>cookies.js</code> which
+                    creates the fun little peer pressure system that forces you to take a cookie. (This site
+                    does not actually store cookies in your browser, it simply stores a bit of data in your
+                    cache and clearing your cache allows you to take another cookie. I do not track any of
+                    your personal information whatsoever.)<br>
+                    As well, <code>/src/</code> also contains the main <code>.html</code> files that make up 
+                    the individual pages in this site. There's not very much to it, this website is relatively
+                    simple in structure. I like it that way, there's a lot less to manage.<br>
+                    Also, there's a <code>README.md</code> and <code>.gitignore</code> for GitHub stuff. Not
+                    very important in terms of the actual website, but if you go to the <a href="https://github.com/gbtsui/gbtsui.github.io">
+                    repository</a> you can see stuff. 
+                    </p>
+                </div>
+                <div class="full-image">
+                    <img src="/res/images/website-directory-layout.avif"/>
+                    <p>Layout as of time of writing.</p>
+                </div>
+                <div class = "informative-paragraph-section">
+                    <h2>How are site pages themselves structured?</h2>
+                    <p>I use typical HTML. In <code>&lt;body&gt;</code>, I have a few main <code>&lt;div&gt;</code>
+                    blocks: <code>head_navbar</code> contains the top navigational link bar thingy, <code>top_area</code>
+                    contains the title and subtitle, <code>fullwidth_text_block</code> contains the actual body of 
+                    the actual body. As well, I also have a <code>footer</code> which contains... the footer. 
+                    </p>
+                    <p>If you're really interested in how the website is built, I recommend inspecting the HTML yourself,
+                        since there's a lot more <code>div</code> types than the main ones. 
+                    </p>
+                </div>
+                <div class="informative-paragraph-section">
+                    <h2>Is my code pretty or clean?</h2>
+                    <p>No. Not at all. Please do not follow exactly what I do for your own website, I make a lot
+                        of mistakes in my formatting and stuff. I suggest reading up on common best practices on 
+                        how people write HTML. Though, most sites these days are written in React, so unless you're 
+                        also just making something barebones like me, I would stick to that.
+                    </p>
+                </div>
+                <div class="informative-paragraph-section">
+                    <h2>How did I learn how to make this?</h2>
+                    <p>Trial and error, which in retrospect isn't the greatest way to learn. But, I used documentation from 
+                        <a href="https://www.w3schools.com/">W3Schools</a>, which was actually really really helpful. Trying
+                        to learn HTML/CSS/JS by yourself with zero external documentation is a recipe for failure, which is why
+                        documentation and stuff exists. Also, I might have copy and pasted stuff from Instagram reels that I've
+                        watched about CSS. That's how you learn, though.
                     </p>
                 </div>
             </div>
-
-          </div>
+        </div>
     </body>
 </html>

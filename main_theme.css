@@ -11,13 +11,13 @@
 div {
   font-family: AtkinsonHyperlegible;
   font-size: larger;
+  line-height: 1.5;
 }
 code {
   font-family: AtkinsonMonolegible;
   font-size:large;
   background-color: darkslategray;
   color: white;
-  font-weight:bold;
   padding:2px;
   border-radius: 4px;
 }
@@ -53,6 +53,9 @@ code {
   padding-left:10%;
   padding-right: 10%;
   font-size:large;
+}
+.informative-paragraph-section{
+  min-width: 50%;
 }
 
 .about_blocks {
@@ -197,8 +200,7 @@ code {
   width:100%;
   float:left;
   overflow:hidden;
-
-  font-size:medium;
+  font-size:small;
 }
 
 .portrait{
@@ -217,6 +219,18 @@ code {
 }
 .side-image img{
   width:90%
+}
+.full-image{
+  padding: 2%;
+  font-size: medium;
+  margin: auto;
+  text-align:center;
+  border: lightslategray;
+  border-style: solid;
+}
+.full-image img{
+  margin:auto;
+  display:block;
 }
 
 .summary{
