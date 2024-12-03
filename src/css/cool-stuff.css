@@ -14,6 +14,13 @@
     transition-duration: 500ms;
     text-align: center;
   }
+  .cool-thing a{
+    color:white;
+    text-decoration: none;
+  }
+  .cool-thing a:hover{
+    text-decoration: underline;
+  }
   .cool-thing img{
     display:block;
     margin:auto;
@@ -39,3 +46,19 @@
     transition-duration: 300ms;
   }
   
+
+#cool-thing-about-this-site{
+    background-image: none;
+}
+
+  #cool-thing-about-this-site a{
+    color:black;
+  }
+  #cool-thing-about-this-site:hover a{
+    color:white;
+    transition-duration: 300ms;
+  }
+
+  #cool-thing-about-this-site a:hover{
+    text-decoration: underline;
+  }
