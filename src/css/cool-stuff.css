@@ -1,0 +1,41 @@
+
+.cool-stuff-container{
+    clear:both;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: row-reverse;
+  }
+  .cool-thing{
+    width:27%;
+    padding:3%;
+    float:left;
+    flex:1;
+    min-width: 27%;
+    transition-duration: 500ms;
+    text-align: center;
+  }
+  .cool-thing img{
+    display:block;
+    margin:auto;
+    width:90%;
+    border-radius: 3px;
+  }
+  .cool-thing:hover{
+    background-color: black;
+    color:white;
+    transition-duration: 500ms;
+  }
+  #cool-thing-fractals{
+    background-image: url(/res/images/cool-stuff/paper-sierpinski-triangle.jpeg);
+    background-position: center;
+    background-size:auto;
+    background-repeat: no-repeat;
+    color:white;
+    transition-duration: 300ms;
+  }
+  #cool-thing-fractals:hover{
+    background-image:url(/res/images/cool-stuff/fractals/sierpinski-octahedron.jpg);
+    color:white;
+    transition-duration: 300ms;
+  }
+  

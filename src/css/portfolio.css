@@ -1,0 +1,29 @@
+
+.portfolio{
+    width: 40%;
+    padding: 5%;
+    float: left;
+    flex:1;
+    flex-wrap:wrap;
+    background-color: darkslategray;
+    color:white;
+    transition-duration: 500ms;
+  }
+  .portfolio:hover{
+    background-color: white;
+    transition-duration: 500ms;
+    color: black;
+  }
+  .portfolio a{
+    color:white;
+  }
+  .portfolio:hover a{
+    color:#4039a0;
+  }
+  
+  
+  .portfolio-container{
+    clear:both;
+    display:flex;
+    flex-wrap: wrap;
+  }

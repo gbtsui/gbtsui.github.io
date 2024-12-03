@@ -1,0 +1,31 @@
+
+.index-link-container{
+    width:80%;
+    padding:10%;
+    clear:both;
+    display:flex;
+    flex-wrap: wrap;
+  }
+  .index-link{
+    padding:5%;
+    float:left;
+    flex:1;
+    background-color: #4039a0;
+    color:white;
+    transition-duration: 300ms;
+    background-image: none;
+    text-align: center;
+  }
+  .index-link a{
+    color: white;
+    text-decoration: none;
+  }
+  .index-link:hover a{
+    color:black;
+    text-decoration: underline;
+  }
+  .index-link:hover{
+    background-color: white;
+    color:black;
+    width:50%;
+  }

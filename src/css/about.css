@@ -1,0 +1,39 @@
+
+
+.about_blocks {
+    width:100%;
+    clear:both;
+    display:flex;
+  }
+  
+  .about {
+    color: black;
+    width:23%;
+    float:left;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: auto;
+    flex:1;
+  }
+  #skills {
+    background-color: darkslategray;
+    color: white;
+  }
+  #certifications{
+    background-color: slategray;
+    color: white;
+  }
+  #hobbies{
+    background-color: lightslategray;
+    color:white;
+  }
+  #socials{
+    background-color: #4039a0;
+    color:white;
+    width:40%;
+  }
+  #socials a{
+    color:lightslategray;
+  }
