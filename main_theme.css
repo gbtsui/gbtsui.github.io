@@ -7,7 +7,6 @@
   src: url(res/fonts/AtkinsonHyperlegible.ttf);
 }
 
-
 div {
   font-family: AtkinsonHyperlegible;
   font-size: larger;
@@ -22,11 +21,83 @@ code {
   border-radius: 4px;
 }
 
+.cool-stuff-container{
+  clear:both;
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction: row-reverse;
+}
+.cool-thing{
+  width:27%;
+  padding:3%;
+  float:left;
+  flex:1;
+  min-width: 27%;
+  transition-duration: 500ms;
+  text-align: center;
+}
+.cool-thing img{
+  display:block;
+  margin:auto;
+  width:90%;
+  border-radius: 3px;
+}
+.cool-thing:hover{
+  background-color: black;
+  color:white;
+  transition-duration: 500ms;
+}
+#cool-thing-fractals{
+  background-image: url(/res/images/cool-stuff/paper-sierpinski-triangle.jpeg);
+  background-position: center;
+  background-size:auto;
+  background-repeat: no-repeat;
+  color:white;
+  transition-duration: 300ms;
+}
+#cool-thing-fractals:hover{
+  background-image:url(/res/images/cool-stuff/fractals/sierpinski-octahedron.jpg);
+  color:white;
+  transition-duration: 300ms;
+}
+
+.index-link-container{
+  width:80%;
+  padding:10%;
+  clear:both;
+  display:flex;
+  flex-wrap: wrap;
+}
+.index-link{
+  padding:5%;
+  float:left;
+  flex:1;
+  background-color: #4039a0;
+  color:white;
+  transition-duration: 300ms;
+  background-image: none;
+  text-align: center;
+}
+.index-link a{
+  color: white;
+  text-decoration: none;
+}
+.index-link:hover a{
+  color:black;
+  text-decoration: underline;
+}
+.index-link:hover{
+  background-color: white;
+  color:black;
+  width:50%;
+}
+
 .portfolio{
   width: 40%;
   padding: 5%;
   float: left;
   flex:1;
+  flex-wrap:wrap;
   background-color: darkslategray;
   color:white;
   transition-duration: 500ms;
@@ -47,6 +118,7 @@ code {
 .portfolio-container{
   clear:both;
   display:flex;
+  flex-wrap: wrap;
 }
 
 .article-info{
